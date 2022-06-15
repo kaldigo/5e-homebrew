@@ -16,12 +16,7 @@
 			}
 		],
 		"dateAdded": 1643685011,
-		"dateLastModified": 1644095508,
-		"includes": {
-			"subclass": [
-				"VSS"
-			]
-		}
+		"dateLastModified": 1644095508
 	},
 	"subclass": [
 		{
