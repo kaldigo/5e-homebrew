@@ -21,7 +21,7 @@
 	"subclass": [
 		{
 			"name": "Unlimited Possibilities Craftsman",
-			"source": "upcraft",
+			"source": "UP",
 			"shortName": "UP Craftsman",
 			"className": "Craftsman",
 			"classSource": "VSS",
