@@ -19,13 +19,7 @@
 		"dateLastModified": 1644095508,
 		"includes": {
 			"class": [
-				"VSS",
-				"PHB",
-				"TCE",
-				"XGE"
-			],
-			"spells": [
-				"BoLS"
+				"VSS"
 			]
 		}
 	},
