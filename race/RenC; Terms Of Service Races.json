@@ -137,6 +137,265 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Jewel Genasi",
+			"source": "TOSR",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 2
+                    }
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"primordial": true,
+					"any": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"fluff": {
+				"entries": [
+					"As a Jewel Genasi, you are descended from the clever and deceiving Dao usually associated with the mineral quasi-plane, though these traits are not passed on to you. You have however inherited some measure of communication over minerals mainly gemstones such as rubies, diamonds, and emeralds, revelling in secret knowledge that they reveal to you, while also being able to sense them. You tend to avoid rash decisions but are quick thinking and sharp-minded and able to make quick judgments.",
+                    "All Jewel Genasi are born with a gemstone visible on the body, the some may have deep cavern-like scars like there Earth Genasi cousins. the hair and eyes tend to match the Jewels gemstone but will have a shimmer to it even in dim light, though the color of the three may also change depending on regions, depth, and mood.",
+                    "Unlike there Earthen cousins Jewel Genasi prefer to live in populated areas and be under the sun. Often upon birth Jewel Genasi are taken either by religious orders, miners or even kidnapped by bandits. those that aren't are ofter believed to be Seers or prophets because of their primordial heritage and given better lives than they normally would. though many become adventurers, politicians, and truthseekers. Many a time Jewel Genasi will take their gemstone as there last name[2]. Adult Jewel Genasi will keep there gemstone covered though a few around them may be aware of the secret, if unaffiliated people see a Jewel Genasi they may beg for blessings, or foresight regardless if the Genasi is magical."
+				]
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Independent and self-reliant, Genasi tended toward a neutral alignment."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"Your base walking speed is 30 feet. and like your Earth Gensai cousin you may move across difficult terrain made of earth or stone without expending extra movement."
+					]
+				},
+				{
+					"name": "Language",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Common, Primordial, and one other language."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"Your eyes have adapted to help you see in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of grey."
+					]
+				},
+				{
+					"name": "Earth Walk",
+					"type": "entries",
+					"entries": [
+						" You can move across difficult terrain made of earth or stone without expending additional movement."
+					]
+				},
+				{
+					"name": "Jewel Sensory",
+					"type": "entries",
+					"entries": [
+						"Jewel Genasi are able to sense the memories of gemstones that they can touch, whether crafted into jewellery or in its raw form. These memories can tell a Jewel Genasi beneficial things about the wearer or the location of it."
+					]
+				},
+				{
+					"name": "Psychic Resilience",
+					"type": "entries",
+					"entries": [
+						"You have resistance to Psychic Damage."
+					]
+				},
+				{
+					"name": "Gift of Hydaelyn",
+					"type": "entries",
+					"entries": [
+						"You know the {@spell Light} and {@spell Magic Stone} Cantrips. You can only cast Light on gemstones, or on yourself.",
+                        "Starting at 3rd level, you can also cast {@spell Chromatic Orb} with this ability without expending a spell slot or requiring material components.",
+                        "Additionally, at 5th level, you can cast Soul Shield without expending a spell slot. Once you cast either spell this way you can't cast it again untill you finish a long rest. You can also cast these spells using spell slots.",
+                        "Intelligence, Wisdom, or Charisma are your spellcasting abilities for these spells when you cast them with this trait (you choose when you select this race)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Raggedy Geppettin",
+			"source": "TOSR",
+			"ability": [
+				{
+					"dex": 1,
+					"cha": 2
+				}
+			],
+			"skillProficiencies": [
+				{
+					"persuasion": true
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Monstrous Race"
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"As constructs, geppettin do not age, and are mature as soon as they become sentient."
+					]
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Geppettin, as varied as they are, run the gamut of alignments. Raggedies are generally good, bisques tend towards evil, and marionettes are usually in between"
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Geppettin have superior vision in dim light and darkness. You can see in dim light within 60 feet of you as if it was bright light, and darkness as if it was dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Construct Anatomy",
+					"entries": [
+						"Even though you were constructed, you are a living creature. You are immune to diseases and have advantage on saving throws against being Poisoned. You do not need to eat or breathe, but you can ingest food if you wish.",
+						"Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice enemies approaching and other events as normal. You also can't be magically put to sleep."
+					]
+				},
+				{
+					"name": "Innocuous",
+					"entries": [
+						"Geppettin are generally indistinguishable from non-living dolls of the same type. Because of that, they can be very sneaky when they want to be. You have advantage on Charisma (Deception) checks you make to appear as a mundane toy."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"Geppettin can read and write Common as well as one other language based on their creator's race (your choice)."
+					]
+				},
+				{
+					"type": "section",
+					"entries": [
+						{
+							"name": "Raggedy",
+							"entries": [
+								"Raggedy geppettin, also commonly called plushies, are any form of stuffed or soft doll. Though they often look humanoid, they may also look like animals, monsters, or any other form of anthropomorphic creature."
+							]
+						}
+					]
+				},
+				{
+					"name": "Adorable",
+					"entries": [
+						"Raggedy, before coming to life, we're designed to be appealing to children. As such, you gain proficiency in the Persuasion skill, and have advantage on Charisma (Persuasion) rolls you make against children or other creatures that are fond of cute things."
+					]
+				},
+				{
+					"name": "Stuffed with Fluff",
+					"entries": [
+						" Raggedy are filled with a lightweight, soft material. When you take bludgeoning damage, you can use your reaction to gain resistance to the damage, and you are also knocked 5 feet away from the source of the damage."
+					]
+				},
+				{
+					"name": "Stuffed with Fluff",
+					"entries": [
+						"You have resistance to Bludgeoning Damage, though you are also vulnerable Fire damage. Additionally, when you take Bludgeoning Damage you may use your reaction to instead take no damage and get knocked back a number of feet equal to the damage you would have taken. You can use this reaction a number of times equal to your proficiency bonus and regain all uses upon completing a long rest."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"\"As soon as he reached home, Geppetto took his tools and began to cut and shape the wood into a Marionette.\""
+						],
+						"by": "Carlo Collodi",
+						"from": "Le Avventure di Pinocchio"
+					},
+					"Ever a joy to children, geppettin resemble living playthings made of wood, cloth, or porcelain. Though easily mistaken for puppets, geppettin aren't manipulated by a just-out-of-sight puppeteer; they are animated, sentient, and independent.",
+					{
+						"name": "Diverse Oddities",
+						"entries": [
+							"As a race, the geppettin are an oddity. Though rare, they are numerous enough and share enough similarities with each other that they may be counted as an actual race of people, and not just freak mishaps of magic. While it may be that there are dedicated creators of geppettin, as there are with golems, a significant number of them have come to life on their own.",
+							"Physically, geppettin are quite small, often slightly shorter than halflings. Their physical features vary greatly from type to type, but they are almost always humanoid in shape. For simplicity, geppettin are classified by the materials of which they are composed: bisque are porcelain, marionettes are wood, and raggedy are made of fabric.",
+							"Despite being made of somewhat flimsy materials, sentience seems to grant them an odd hardiness. Additionally, due to their non-living nature, they never hunger, rarely tire, and are adept at being innocuous. Most find some form of work or profession in entertainment, but a few find fantastic success as spies and assassins."
+						]
+					},
+					{
+						"name": "Charming, Yet Uncanny",
+						"entries": [
+							"Though they bring delight to children, geppettin instill a cold fear in many adults\u2014the type of fear that accompanies the uncanny realization that something inanimate is, in fact, alive. A person's first reactions to a geppettin can be most telling, and usually fall into two camps: those that find the geppettin delightful, perhaps recalling cherished childhood memories; and those that are taken by an unnerving phobia, feeling a sudden chill upon seeing a doll move of its own impetus."
+						]
+					},
+					{
+						"name": "Geppettin Names",
+						"entries": [
+							"Like other constructs, geppettin rarely name themselves. Typically, a construct has no conception that living creatures obsessively name everything, and have a name bestowed upon them\u2014in this case, geppettin are normally named by children, or are given terms of endearment by adults.",
+							"None can say where this tradition originated, but mouselings hold to it strongly. If one is seen without a hood, it is a sure sign of disgrace and exile, the most personal punishment a village of mouselings can inflict.",
+							{
+								"name": "Names",
+								"entries": [
+									" Birdie, Cuddles, Desmond, Dusty, Hobbes, Fluffie, Frowny, Lizzie, Patches, Princess, Pup-pup, Red Jacket, Teddy"
+								]
+							}
+						]
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			]
 		}
 	]
 }
