@@ -1,0 +1,142 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "termsofserviceraces",
+				"full": "Terms of Service Races",
+				"abbreviation": "TOSR",
+				"authors": [
+					"RenC"
+				],
+				"convertedBy": [
+					"Kaldigo"
+				],
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1570535687,
+		"dateLastModified": 1570535687,
+		"includes": {
+			"fluff": [
+				"FFXIV"
+			]
+		}
+	},
+	"race": [
+		{
+			"name": "Miqo'te",
+			"source": "TOSR",
+			"page": 1,
+			"size": [
+				"M"
+			],
+			"speed": 35,
+			"darkvision": 60,
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"fluff": {
+				"entries": [
+					"As a Seeker of the sun, you come from a race of renowned hunters. The Seekers live in a patriarchal society which worships the sun and Azeyma. This past has given you the tools to become a deadly hunter, capable of wounding their marks with great efficiency."
+				],
+				"_appendRaceFluff": {
+					"name": "Miqo'te",
+					"source": "FFXIV"
+				}
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Miqo'te tend to live secluded, healthy lives reaching physical maturity around the age of 16, and living to be around 80 years old."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Miqo'te who live within a traditional tribal setting lean towards a lawful alignment, adhering to the laws of their people. Those who are born or live in more diverse settings tend to lean in no particular direction."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Miqo'te are a proud people with powerful leg muscles. Their slender builds distract from how powerful their bodies really are. On average males tend to range in height from 5 feet to 5 and a half feet tall, while females range from 4 feet 9 inches to 5 feet 3 inches Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"Your base walking speed is 35ft."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"Your eyes have adapted to help you see in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of grey."
+					]
+				},
+				{
+					"name": "Language",
+					"type": "entries",
+					"entries": [
+						"You can speak, read and write Common and one language of your choice. When speaking Common, your pronunciation of \"r\" sounds are sometimes extended with a purr."
+					]
+				},
+				{
+					"name": "Natural Athleticism",
+					"type": "entries",
+					"entries": [
+						"You gain proficieny in the {@skill Athletics} skill."
+					]
+				},
+				{
+					"name": "Powerful Legs",
+					"type": "entries",
+					"entries": [
+						"A Miqo'te has incredible strength in they're legs which lets them gain their full jump distance with only a 5ft run up. Additionally they add their proficiency bonus to their long jump distance and half to their high jump height."
+					]
+				},
+				{
+					"name": "Trace",
+					"type": "entries",
+					"entries": [
+						"Miqo'te have exceptionally strong noses that grant them advantage on {@skill Perception} checks that involve smell. Additionally they don't take any speed penalties to tracking when they have a scent trail."
+					]
+				},
+				{
+					"name": "Feline Balance",
+					"type": "entries",
+					"entries": [
+						"With the help of their tails, Miqo'te have advantage on {@skill Acrobatics} Checks made to maintain balance."
+					]
+				},
+				{
+					"name": "Seeker's Predation",
+					"type": "entries",
+					"entries": [
+						"A Seeker can make Opportunity Attacks with Advantage and Opportunity Attacks against them have disadvantage. Additionally, they can Dash as bonus action. If they move at least 10ft after taking this bonus action they can add their proficiency bonus to any damage they deal with weapon attacks. This bonus action can be used proficiency bonus times and all uses are regained upon finishing a long rest."
+					]
+				}
+			]
+		}
+	]
+}
