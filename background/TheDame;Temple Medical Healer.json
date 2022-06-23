@@ -1,0 +1,182 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "templemedicalhealer",
+				"abbreviation": "TMH",
+				"full": "Temple Medical Healer",
+				"authors": [
+					"The Dame"
+				],
+				"version": "1.0.0",
+				"url": "https://www.dndbeyond.com/backgrounds/259424-temple-medical-healer-monk",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0,
+		"_dateLastModifiedHash": "272984671c"
+	},
+	"background": [
+		{
+			"name": "Temple Medical Healer",
+			"source": "templemedicalhealer",
+			"skillProficiencies": [
+				{
+					"medicine": true,
+					"survival": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Medicine}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "Herbalism kit, Healers kit"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A healers kit, a herbalism kit, a mess kit and a set of common clothes."
+						}
+					]
+				},
+				{
+					"name": "Feature: Healer",
+					"type": "entries",
+					"entries": [
+						"You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:",
+						"When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.",
+						"As an action, you can spend one use of a healer's kit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Temple healer's are shaped by their temples ideals, the subjects they study and the practical experiences provided in that limited association. They are self aware, but not always socially aware and may fail to pick up on social cues others have learned to navigate in a more broad social experience. They are single minded, and sure of how to do what is needed, but may not think to or know how to express that to others.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Cold - You have hardened your heart to loss. Too many have died in your hands for you to truly care about the person under your care. Your only concern is there is a wound that needs your treatment."
+								],
+								[
+									"2",
+									"Thrill - You live for the thrill of yanking a person from the brink of death, and that thrill is what pulls you to the next patient, and the one after that."
+								],
+								[
+									"3",
+									"Precision - Everything must be done just right, every time in order to save one life after the next. Your life is about regimented precision in all aspects of your life."
+								],
+								[
+									"4",
+									"Rescue - No man left behind. You cannot pass a wounded creature with out stopping to help."
+								],
+								[
+									"5",
+									"Guard - Defend the defenseless. You have to stop coup de grace kills, every time. If they can survive your ideal is that they must be given that chance,"
+								],
+								[
+									"6",
+									"Conserve - Waste not a life. Why kill when you can capture, and why kill when you can make suffer. Not every combat must end in death."
+								],
+								[
+									"7",
+									"Mercy - Grace in all things. You give a person the grace to live, if they choose, but the grace to die as will."
+								],
+								[
+									"8",
+									"Sacrifice - You have have sacrificed you time, knowledge, and safety on many occasions, for the hopes of saving a life. and you would do so again, and again."
+								]
+							]
+						}
+					]
+				},
+				{
+					"name": "FeaturesContacts",
+					"type": "entries",
+					"entries": [
+						"Every person you have healed from a grave wound is your life long friend. There have been quite a few. From the soldier with the perforated lung to the silly noble that got tossed racing his horse, Man that concussion had to have sucked. Every one of them can be turned to ONCE for a material need, a matter of influence, or shelter from a storm.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Contacts"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"You have healed a wealthy merchant, and can go to him for funds under 50gp"
+								],
+								[
+									"2",
+									"You have treated a scholar and can turn to him for information on a topic you don't understand"
+								],
+								[
+									"3",
+									"You have saved the life of a Noble, and can ask for a letter of introduction to other nobles or organizations"
+								],
+								[
+									"4",
+									"You have handled the recovery of multiple soldiers, and can turn to their commander for sanctuary once."
+								]
+							]
+						}
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true,
+					"healers kit": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "herbalism kit"
+						},
+						{
+							"special": "healers kit"
+						},
+						{
+							"special": "mess kit"
+						},
+						{
+							"special": "common clothes"
+						}
+					]
+				}
+			]
+		}
+	]
+}

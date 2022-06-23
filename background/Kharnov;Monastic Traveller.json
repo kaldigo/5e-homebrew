@@ -1,0 +1,299 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "monastictraveller",
+				"abbreviation": "MTB",
+				"full": "Monastic Traveller",
+				"authors": [
+					"Kharnov"
+				],
+				"version": "1.0.0",
+				"url": "https://www.dndbeyond.com/backgrounds/8397-monastic-traveller",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0,
+		"_dateLastModifiedHash": "272984671c"
+	},
+	"background": [
+		{
+			"name": "Monastic Traveller",
+			"source": "monastictraveller",
+			"skillProficiencies": [
+				{
+					"history": true,
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"celestial",
+							"draconic",
+							"dwarvish",
+							"elvish",
+							"gnomish",
+							"halfling"
+						],
+						"count": 1
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"calligrapher's supplies",
+							"cook's utensils",
+							"painter's supplies",
+							"herbalism kit"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill History}, {@skill Perception}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "Choose one type of Artisan's Tools from this list: Calligrapher's Supplies, Cook's Utensils, Painter's Supplies, Herbalism Kit"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Choose one language from this list: Celestial, Draconic, Dwarvish, Elvish, Gnomish, Halfling"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "Set of Clothes: Travelers, Trinket from your Monastery, Money Pouch with 10 GP, and Choose one set of Artisan's Tools from this list: Calligrapher's Supplies, Cook's Utensils, Painter's Supplies, Herbalism Kit"
+						}
+					]
+				},
+				{
+					"name": "Feature: Monastic Infleuence",
+					"type": "entries",
+					"entries": [
+						"While within the lands where the local monastery has influence, people will tend to be helpful and friendly to the monk and his party. Additionally merchants and locals tend to be more likely to share information.  Gain advantage on persuasion or investigation checks to gather local information as long you maintain good standing with the local monastery."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"Unlike most, the traveling monk finds it easier to open up around strangers, and doesn't mind fraternizing with the locals in taverns, but still restricts their actions towards the followings of their temple.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"The roads are open to me, I follow my feet and enjoy the journey that they take, like water filling a cup."
+								],
+								[
+									"2",
+									"Like the gale winds I am direct and fierce, always respectful of those who respect others, but as the winds change I also provoke through sarcasm and jokes."
+								],
+								[
+									"3",
+									"I am a peaceful forest lake. I am serene with my thoughts and my tranquility overflows unto those around me."
+								],
+								[
+									"4",
+									"I strive for a better me tomorrow, always improving both physically and spiritually through hard work."
+								],
+								[
+									"5",
+									"I am one with myself. I strive for balance in all things. I work hard but play just as hard."
+								],
+								[
+									"6",
+									"I am shattered. Something has happened that has shaken my beliefs and I will not find peace until I can face what has happened."
+								],
+								[
+									"7",
+									"I have never found a problem that a good boot to the head could not cure."
+								],
+								[
+									"8",
+									"I am only an extension of my monastery, and only seek the adventures travelling on its behalf brings because the spiritual guidance elude me still..."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Brotherhood. I never feel alone as long as I know my brothers (and/or sisters) are out there. (Any)"
+								],
+								[
+									"2",
+									"Pacifist. My skills are only to be used for defense. I will not kill my opponent unless it is unavoidable. (Good)"
+								],
+								[
+									"3",
+									"Respect. I will advocate against any sighted injustice, especially those that disrespect the core beliefs of my Monastery (Lawful/Good)"
+								],
+								[
+									"4",
+									"Power. All this training and meditation is just a means to an end. (Evil)"
+								],
+								[
+									"5",
+									"Unchained. I am a free spirit, roaming the land and bringing change. (Chaotic)"
+								],
+								[
+									"6",
+									"Meditation. In order to understand the world, I must first understand myself. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I have a duty to my order and will stand with them in all things."
+								],
+								[
+									"2",
+									"I have received enlightenment but the world is still in darkness. I must bring enlightenment to others."
+								],
+								[
+									"3",
+									"My mentor was a fallen monk, who's ideals have twisted my outlook on the temple."
+								],
+								[
+									"4",
+									"My mentor was struck down protecting me from a powerful foe, I seek to defeat this foe with my own two hands."
+								],
+								[
+									"5",
+									"I strive to bring balance to the land."
+								],
+								[
+									"6",
+									"I love my fellow brothers (and/or sisters) at the temple but I can not help but wonder who my parents were or why they brought me to the monastery."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am still unable to instill my masters teachings, and I am unable to hold still in the presence of injustice, provocation or disrespect towards me or others."
+								],
+								[
+									"2",
+									"I am extremely uncomfortable around (opposite sex, specific race, nobility, etc.) and I find myself stammering, blushing, and loose all my composure."
+								],
+								[
+									"3",
+									"I panic in large cities and usually try to avoid them."
+								],
+								[
+									"4",
+									"I have no respect for those who do not respect themselves."
+								],
+								[
+									"5",
+									"I left my monastery after a bad argument with my master. I am NEVER going back."
+								],
+								[
+									"6",
+									"My way of peace and meditation is the only way. Those who travel with me must meditate with me at least once a day or I will refuse to help."
+								]
+							]
+						}
+					]
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"special": "calligrapher's supplies"
+						}
+					],
+					"b": [
+						{
+							"special": "cook's utensils"
+						}
+					],
+					"c": [
+						{
+							"special": "painter's supplies"
+						}
+					],
+					"d": [
+						{
+							"special": "herbalism kit"
+						}
+					]
+				},
+				{
+					"_": [
+						{
+							"special": "travelers clothes"
+						},
+						{
+							"special": "trinket from your monastery"
+						},
+						{
+							"special": "pouch",
+							"containsValue": 1000
+						}
+					]
+				}
+			]
+		}
+	]
+}
